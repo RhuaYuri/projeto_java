@@ -1,10 +1,14 @@
 package br.com.marcelomonier.descartaqui.descartaqui;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.support.annotation.StringDef;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.view.Gravity;
 import android.view.View;
 
 public class Menu2Activity extends AppCompatActivity {
@@ -29,8 +33,23 @@ public class Menu2Activity extends AppCompatActivity {
         cardApresentacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Menu2Activity.this, ApresentacaoActivity.class);
-                startActivity(i);
+                AlertDialog.Builder builder = new AlertDialog.Builder(Menu2Activity.this);
+                builder.setCancelable(false);
+                builder.setTitle(R.string.title_apresentacao);
+                builder.setMessage(R.string.apresentacao_descricao);
+
+
+                builder.setPositiveButton("Ok!", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                // display dialog
+                dialog.show();
+
             }
         });
 
@@ -78,4 +97,11 @@ public class Menu2Activity extends AppCompatActivity {
 
 
     }
+
+    public void showDialog(View view){
+
+
+    }
+
+
 }

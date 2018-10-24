@@ -55,5 +55,17 @@
     <string name="title_oficina_regia">Compostagem doméstica</string>
     <string name="regia_descricao">    A oficina abordará conceitos básicos, a importância ecológica e econômica da compostagem doméstica, etapas da compostagem, produção e utilização da composteira, compostagem como mecanismo de reciclagem de resíduos orgânicos domésticos.</string>
 
+    
+    
+    <!--Texto de apresentação-->
+    
+    <string name="title_apresentacao" formatted="true">DescartaQUI</string>
+    <string name="apresentacao_descricao">O DescartaQUI é resultado de um projeto de pesquisa sobre resíduos sólidos na cidade de Porto Franco (MA). A preocupação com o descarte adequado de resíduos eletroeletrônicos e o potencial das hipermídias na divulgação de informações pertinentes ao desenvolvimento científico, social e tecnológico pautado na sustentabilidade culminaram na proposta de um aplicativo que possibilite informações sobre os Resíduos de Equipamentos Eletroeletrônicos, além de pontos de coleta na cidade para o descarte adequado dos mesmos.</string>
+
+
+    <string name="pb_chumbo">Dores abdominais (cólica, espasmo e rigidez) "\n"Disfunção renal "\n"Anemia, problemas pulmonares "\n"Neurite periférica (paralisia) "\n"Encefalopatia (sonolência, manias, delírio, convulsões e coma).</string>
+
+
+
 
 </resources>
